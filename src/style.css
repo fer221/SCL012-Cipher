@@ -1,0 +1,20 @@
+body{
+    background-image: url("wheat.png");
+
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', cursive;
+    color: aliceblue;
+}
+
+.contatainer{
+
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+
+
+
+}
+
