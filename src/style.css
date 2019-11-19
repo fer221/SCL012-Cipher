@@ -3,18 +3,50 @@ body{
 
 }
 
-h1{
-    font-family:'Franklin Gothic Medium', cursive;
-    color: aliceblue;
-}
-
-.contatainer{
-
+.container{
     margin: 0 auto;
     text-align: center;
-    width: 800px;
-
-
+    width: 60%;
+    height: 100%;
+    background: #3c4245;
+    padding-bottom: 20%;
+    opacity: 0.8;
 
 }
 
+.ing{
+    color: rgb(8, 6, 6);
+   height: 20px;
+}
+
+.btn{
+    font-size: 1em;
+    display: inline-block;
+    background:#bd574e;
+    line-height: 2;
+    padding: 0 1.5em;
+    text-decoration: none;
+    border-radius: 1.5em;
+    border: 1px solid rgba(#594a4e,.2);
+    
+    
+}
+
+#crip{
+    padding: 5% 10% 0%;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'negrita';
+    color:#bd574e;
+    margin-bottom: 0;
+    }
+
+.texto{
+    border-radius: 1.5em; 
+    
+}
+.parrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'negrita';
+    font-size: 15px;
+    color:#fa877f;
+    padding: -10%;
+}

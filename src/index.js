@@ -3,12 +3,12 @@ const btn= document.getElementById("cifradod");
     btn.addEventListener("click", () =>{
     
     const offset= document.getElementById("numero").value;
-    console.log('off',offset);
+    
     const textarea = document.getElementById("textc").value;
-    console.log('text',textarea);
+    
     const letrasTranformadas = textarea.toUpperCase();
     const namber= parseInt(offset);
-    console.log('letras',letrasTranformadas);
+    
     
     
     
@@ -27,9 +27,9 @@ const btnTextDecode = document.getElementById("desifrar");
 btnTextDecode.addEventListener("click", function() {
 
     const offset= document.getElementById("numero").value;
-    console.log('off',offset);
+    
     const textarea = document.getElementById("textc").value;
-    console.log('text',textarea);
+    
     const letrasTranformadas = textarea.toUpperCase();
     const namber= parseInt(offset);
     
@@ -51,19 +51,19 @@ const btnvolver = document.getElementById("volver");
 btnvolver.addEventListener("click", function(){
      
     const offset= document.getElementById("numero");
-    console.log(offset);
-    offset.value= " ";
+    
+    offset.value= "";
     document.getElementById("numero").innerHTML= " ";
     
     const textarea = document.getElementById("textd");
-    console.log(textarea);
-    textarea.value= " ";
+   
+    textarea.value= "";
     document.getElementById("textd").innerHTML=" ";
     
     const texto =document.getElementById("textc");
-    console.log(texto);
-    texto.value= " ";
-    document.getElementById("textc").innerHTML= " ";
+    
+    texto.value= "";
+    document.getElementById("textc").innerHTML= "";
 
 })
 

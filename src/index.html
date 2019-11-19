@@ -8,23 +8,29 @@
   <body>
     
     <div id="root" class="container">
-      <h1>Criptonita!</h1>
-    
-    
-    <div id= "cambio" class="dos">
-      <p>(aqui ingresas las intrucciones para el usuario)</p>
-     
-     
+      
+      <h1 class="titulo" id="crip">Criptonita!</h1>
+      <div id= "parrafo" class="parrafo">
+        <p>La encriptación de tarjetas de crédito es una medida de seguridad que se utiliza para reducir la probabilidad de que la información de una tarjeta de crédito o débito sea robada. El cifrado de tarjetas de crédito implica tanto la seguridad de la tarjeta, la seguridad del terminal donde se escanea la tarjeta, como la seguridad de la transmisión de la información de la tarjeta</p>
+        <p>Para poder encriptar tu tarjeta debes ingresar el número de seguridad que deseas, luego debes ingresar la clave, número de tarjeta o el texto que deseas encriptar, solo debes elegir la opción que deseas (Encriptar o Desencriptar), y LISTO! ya puedes optar a una mejor segurar bancaria.
+        Ten en consideración que cuando deseas desencriptar tu texto debes recordar el número de seguridad que utilizaste.</p>
+        </p> 
+      </div>
       <br>
-    </div>
+    
    
-    <input type="number" id="numero" placeholder="ingresa tu numero"> <br>
-    <textarea id="textc" rows="4" cols="20" placeholder="ingresa tu texto para Cifrar" maxlength="10"></textarea><br>
-    <button type="button" id="cifradod">Cifrado</button>
-    <button type="button" id="desifrar">Desifrar</button> <br> 
-    <textarea id="textd" rows="4" cols="20" ></textarea>
+    <input type="number" class= "ing" id="numero" placeholder="   Ingresa tu numero" rows="2" cols="5"> <br>
     <br>
-      <button type="button" id="volver">Volver</button>
+    <textarea id="textc" class="texto" rows="10" cols="60" placeholder="       Ingresa tu texto" maxlength="10"></textarea><br>
+    <br>              
+    <button type="button" class= "btn" id="cifradod">Encriptar</button>
+    
+    <button type="button" class= "btn" id="desifrar">Desencriptar</button> <br> 
+    <br>
+    <textarea id="textd" class="texto" rows="10" cols="60" ></textarea>
+    <br>
+      <button type="button" class= "btn" id="volver">Volver</button>
+    
     </div>  
     <script src="cipher.js"></script>
     <script src="index.js"></script>
