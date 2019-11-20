@@ -32,17 +32,16 @@ body{
     
 }
 
-/*#crip{
-    padding: 5% 10% 0%;
+#crip{
+    
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'negrita';
     color:#e3b04b;
     margin-bottom: 0;
     }
-    */
 
 .texto{
-    border-radius: 1em; 
+    border-radius: 1.5em; 
     
 }
 .parrafo{
