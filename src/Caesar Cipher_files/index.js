@@ -1,4 +1,4 @@
-const btn= document.getElementById("cifradod");
+/*const btn= document.getElementById("cifradod");
 
     btn.addEventListener("click", () =>{
     
@@ -35,3 +35,4 @@ console.log [i]
 
 
 
+*/

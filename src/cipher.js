@@ -21,7 +21,7 @@ window.cipher = {
     }
     //for ()
     
-    document.getElementById("textd").innerHTML= resultado;
+    //document.getElementById("textd").innerHTML= resultado;
     return resultado;
 
     
@@ -46,7 +46,7 @@ window.cipher = {
     }
    
     
-    document.getElementById("textd").innerHTML= resultado;
+    //document.getElementById("textd").innerHTML= resultado;
     return resultado;
 
 

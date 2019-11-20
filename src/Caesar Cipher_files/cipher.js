@@ -1,4 +1,4 @@
-window.cipher = {
+/*window.cipher = {
   encode: (offset, letra) => {
 
     let resultado = "";
@@ -30,4 +30,4 @@ window.cipher = {
   //decode = () => {
     /* Acá va tu código */
   //}
-};
+//};

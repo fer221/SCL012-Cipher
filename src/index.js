@@ -4,18 +4,20 @@ const btn= document.getElementById("cifradod");
     
     const offset= document.getElementById("numero").value;
     
-    const textarea = document.getElementById("textc").value;
+    const textarea = document.getElementById('textc').value;
     
-    const letrasTranformadas = textarea.toUpperCase();
+    let letrasTranformadas = textarea.toUpperCase();
+    
     const namber= parseInt(offset);
-    
+    let cuadro=document.getElementById("textd");
     
     
     
 
     
 
-window.cipher.encode(namber, letrasTranformadas);
+ cuadro.innerHTML=window.cipher.encode(namber, letrasTranformadas);
+
 
 
 
@@ -32,6 +34,7 @@ btnTextDecode.addEventListener("click", function() {
     
     const letrasTranformadas = textarea.toUpperCase();
     const namber= parseInt(offset);
+    let cuadro=document.getElementById("textd");
     
     
     
@@ -43,7 +46,7 @@ btnTextDecode.addEventListener("click", function() {
     
     
     
-    window.cipher.decode(namber, letrasTranformadas);
+    cuadro.innerHTML=window.cipher.decode(namber, letrasTranformadas);
 
 })
 

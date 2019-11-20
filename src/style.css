@@ -1,5 +1,5 @@
 body{
-    background-image: url("wheat.png");
+    background-image: url("fondo-textura-gris_24972-653.jpg");
 
 }
 
@@ -22,31 +22,32 @@ body{
 .btn{
     font-size: 1em;
     display: inline-block;
-    background:#bd574e;
+    background:#f4efd3;
     line-height: 2;
     padding: 0 1.5em;
     text-decoration: none;
     border-radius: 1.5em;
-    border: 1px solid rgba(#594a4e,.2);
+    border: 1px solid rgba(#e3b04b,.2);
     
     
 }
 
-#crip{
+/*#crip{
     padding: 5% 10% 0%;
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'negrita';
-    color:#bd574e;
+    color:#e3b04b;
     margin-bottom: 0;
     }
+    */
 
 .texto{
-    border-radius: 1.5em; 
+    border-radius: 1em; 
     
 }
 .parrafo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'negrita';
     font-size: 15px;
-    color:#fa877f;
+    color:#f4efd3;
     padding: -10%;
 }
